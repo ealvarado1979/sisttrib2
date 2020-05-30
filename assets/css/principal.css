@@ -1,0 +1,104 @@
+/* 
+    Created on : 03-07-2018, 02:37:40 PM
+    Author     : ealvarado
+*/
+
+hr.style1{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .t_botton{
+        width: 15%;
+    } 
+    .t_botton2{
+        width: 12%;
+    } 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .t_botton{
+        width: 15%;
+    } 
+    .t_botton2{
+        width: 12%;
+    } 
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .t_botton{
+        width: 15%;
+    } 
+    .t_botton2{
+        width: 13%;
+    } 
+}
+
+.nombre_user{
+    font-size: 10px;
+}
+
+.sub_oficina_user{
+    font-size: 9px;
+}
+
+
+.centro{
+    text-align: center;
+}
+
+#paginacion1,#paginacion2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*panel*/
+.clickable
+{
+    cursor: pointer;
+}
+
+.clickable .glyphicon
+{
+    background: rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px
+}
+
+.panel-heading span
+{
+    margin-top: -23px;
+    font-size: 15px;
+    margin-right: -9px;
+}
+a.clickable { color: inherit; }
+a.clickable:hover { text-decoration:none; }
+
+
+/*mensajes*/
+.msn{
+    font-size: 14px;
+}
+
+.escritos_old{
+    margin-left: -15px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.botoncentro{
+    width:12%;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

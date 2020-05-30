@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family:'helvetica', Arial;	
+    background:url(../img/fondo.jpg)fixed no-repeat center;
+    background-size:cover;
+}
+
+.login {
+    transform: translate(-50%, -50%);
+    left:68%;
+    top:51%;
+    position:absolute;
+    width: 325px;
+    background-color: rgba(0, 0, 0, 0.22);
+    padding: 27px;
+    border-radius: 17px
+}
+
+.app-title {
+    text-align: center;
+    color: #e7e7e7;
+    font:450 20px helvetica;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.control-group {
+    margin-bottom: 10px;
+}
+
+input:focus {
+    border-radius:7px;
+    box-shadow: none;
+}
+
+.btn {
+    border: 2px solid transparent;
+    background: #3498DB;
+    color: #e7e7e7;
+    font-size: 20px;
+    line-height: 10px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.32s;
+    display: block;
+    width: 275px;
+    margin:0px auto;
+}
+
+.btn:hover {
+    background-color: #2980B9;
+}
+
+.login-link {
+    font-size: 12px;
+    color: #ffffff;
+    display: block;
+    margin-top: 15px;
+}
+
+.mensaje{
+    color: #F7CFC7;
+    font-size: 14px;
+}
+

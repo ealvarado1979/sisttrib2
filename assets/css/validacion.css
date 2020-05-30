@@ -1,0 +1,26 @@
+.LV_validation_message{
+    font-weight:bold;
+    margin:0 0 0 5px;
+    width: 100%;
+    font-size:12px;
+    /*background-color:#ffffff;*/
+    border:1px solid #ff3333;
+    /*z-index:1003;*/
+    /*cursor:pointer;*/
+}
+
+.LV_valid {
+    color:#ff3333;
+}
+
+.LV_invalid {
+    color:#ff3333;
+}
+
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active {
+    border: 1px solid #ff3333;
+}
